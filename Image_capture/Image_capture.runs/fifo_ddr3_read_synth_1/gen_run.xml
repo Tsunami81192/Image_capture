@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="fifo_ddr3_read_synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1677551720">
+  <File Type="PA-TCL" Name="fifo_ddr3_read.tcl"/>
+  <File Type="REPORTS-TCL" Name="fifo_ddr3_read_reports.tcl"/>
+  <File Type="RDS-RDS" Name="fifo_ddr3_read.vds"/>
+  <File Type="RDS-UTIL" Name="fifo_ddr3_read_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="fifo_ddr3_read_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="fifo_ddr3_read.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_ddr3_read">
+    <File Path="$PSRCDIR/sources_1/ip/fifo_ddr3_read/fifo_ddr3_read.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fifo_ddr3_read"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_ddr3_read">
+    <File Path="$PSRCDIR/sources_1/ip/fifo_ddr3_read/fifo_ddr3_read.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="fifo_ddr3_read"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

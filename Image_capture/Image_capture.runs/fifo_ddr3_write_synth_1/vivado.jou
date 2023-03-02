@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Tue Feb 28 10:32:18 2023
+# Process ID: 8492
+# Current directory: D:/34998/FPGA_Study/FPGA/Image_Capture_1A/Image_capture/Image_capture.runs/fifo_ddr3_write_synth_1
+# Command line: vivado.exe -log fifo_ddr3_write.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fifo_ddr3_write.tcl
+# Log file: D:/34998/FPGA_Study/FPGA/Image_Capture_1A/Image_capture/Image_capture.runs/fifo_ddr3_write_synth_1/fifo_ddr3_write.vds
+# Journal file: D:/34998/FPGA_Study/FPGA/Image_Capture_1A/Image_capture/Image_capture.runs/fifo_ddr3_write_synth_1\vivado.jou
+#-----------------------------------------------------------
+source fifo_ddr3_write.tcl -notrace
